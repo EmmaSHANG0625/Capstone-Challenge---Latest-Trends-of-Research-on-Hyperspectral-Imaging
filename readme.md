@@ -37,7 +37,7 @@ The final product is an interactive web-based app where users can explore most u
 
 ## Project Structure
 
-.
+├── requirements.txt
 ├── script_test.ipynb  
 ├── data scraping.py        
 ├── data preprocess.py    
@@ -82,7 +82,7 @@ This will generate a processed dataset suitable for LDA.
 3. Streamlit App:
 Run the Streamlit app to visualize the LDA topics:
 streamlit run streamlit.py  
-This will open a local server at http://localhost:8501, where you can interact with the topic distribution pie chart.
+This will open a local server at https://emmashang0625-capstone-challenge---latest-tren-streamlit-jldhly.streamlit.app/, where you can interact with the topic distribution pie chart.
 
 ## Contribution
 The whole project, including data scriping, preprocessing, model evaluation and Streamlit app development, was completed by Hui Shang. Contributions and improvements to the project are welcome!
