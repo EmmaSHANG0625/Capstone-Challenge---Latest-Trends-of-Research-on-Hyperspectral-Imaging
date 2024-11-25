@@ -71,20 +71,17 @@ python -m spacy download en_core_web_sm
 
 1. Data Scraping:
 Run the following script to scrape data from your desired source (e.g., arXiv):
-
-python data scraping.py
-This will save the scraped data to the directory.
+python data scraping.py  
+This will save the scraped data to the directory. Use the python schedule for automated data scraping every 3 months. 
 
 2. Data Preprocessing:
 Use the preprocessing script to clean and prepare the scraped data for LDA modeling:
-
-python data preprocessing.py
+python data preprocessing.py  
 This will generate a processed dataset suitable for LDA.
 
 3. Streamlit App:
 Run the Streamlit app to visualize the LDA topics:
-
-streamlit run scripts/lda_visualization.py
+streamlit run streamlit.py  
 This will open a local server at http://localhost:8501, where you can interact with the topic distribution pie chart.
 
 ## Contribution
