@@ -83,7 +83,7 @@ This will generate a processed dataset suitable for LDA.
 3. Streamlit App:
 Run the Streamlit app to visualize the LDA topics:
 streamlit run streamlit.py  
-This will open a local server at ![streamlit app](https://emmashang0625-capstone-challenge---latest-tren-streamlit-jldhly.streamlit.app/), where you can interact with the topic distribution pie chart.
+This will open a local server at [streamlit app](https://emmashang0625-capstone-challenge---latest-tren-streamlit-jldhly.streamlit.app/), where you can interact with the topic distribution pie chart.
 
 ## Contribution
 The whole project, including data scriping, preprocessing, model evaluation and Streamlit app development, was completed by Hui Shang. Contributions and improvements to the project are welcome!
