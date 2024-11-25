@@ -17,7 +17,7 @@ This project demonstrates the full pipeline of building a topic modeling applica
 
 **Data Scraping:**  
 The first step in the project involves collecting data from arXiv, a renowned open-access repository that hosts scholarly articles across a wide range of fields, including physics, mathematics, computer science, and more. By targeting metadata and abstracts related to **hyperspectral imaging**, we extracted structured data such as titles, authors, publication dates, and abstracts. This data serves as the foundation for further analysis. The scraping process was automated, iniscically set as every 3 months, using Python libraries, ensuring efficiency and reproducibility.
-![Alt text](wordcloud-1)
+![Alt text](wordcloud-1.png)
 **Data Preprocessing:**  
 The scraped data underwent thorough preprocessing to ensure it was clean and suitable for topic modeling. Tasks included:
 
