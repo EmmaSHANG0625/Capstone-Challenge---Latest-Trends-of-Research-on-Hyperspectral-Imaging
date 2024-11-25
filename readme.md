@@ -16,8 +16,9 @@ Contribution
 This project demonstrates the full pipeline of building a topic modeling application:
 
 **Data Scraping:**  
-The first step in the project involves collecting data from arXiv, a renowned open-access repository that hosts scholarly articles across a wide range of fields, including physics, mathematics, computer science, and more. By targeting metadata and abstracts related to **hyperspectral imaging**, we extracted structured data such as titles, authors, publication dates, and abstracts. This data serves as the foundation for further analysis. The scraping process was automated, iniscically set as every 3 months, using Python libraries, ensuring efficiency and reproducibility.
-![Alt text](wordcloud-1.png)
+The first step in the project involves collecting data from arXiv, a renowned open-access repository that hosts scholarly articles across a wide range of fields, including physics, mathematics, computer science, and more. By targeting metadata and abstracts related to **hyperspectral imaging**, we extracted structured data such as titles, authors, publication dates, and abstracts. This data serves as the foundation for further analysis. The scraping process was automated, iniscically set as every 3 months, using Python libraries, ensuring efficiency and reproducibility.  
+![Alt text](wordcloud-1.png)  
+
 **Data Preprocessing:**  
 The scraped data underwent thorough preprocessing to ensure it was clean and suitable for topic modeling. Tasks included:
 
@@ -37,7 +38,7 @@ The final product is an interactive web-based app where users can explore most u
 
 ## Project Structure
 
-├── requirements.txt
+├── requirements.txt  
 ├── script_test.ipynb  
 ├── data scraping.py        
 ├── data preprocess.py    
@@ -46,13 +47,13 @@ The final product is an interactive web-based app where users can explore most u
 
 ## Technologies Used
 
-Python: Core language used for all stages of the project.
-xml.etree.ElementTree: For data scraping from websites.
-spaCy: For advanced text preprocessing and NLP tasks.
-Plotly: For creating interactive visualizations.
-Streamlit: For building the web application.
-Pandas: For data manipulation and analysis.
-datetime: managing and manipulating date and time values.  
+Python: Core language used for all stages of the project.  
+xml.etree.ElementTree: For data scraping from websites.  
+spaCy: For advanced text preprocessing and NLP tasks.  
+Plotly: For creating interactive visualizations.  
+Streamlit: For building the web application.  
+Pandas: For data manipulation and analysis.  
+datetime: managing and manipulating date and time values.   
 
 ## Installation
 
@@ -70,7 +71,7 @@ python -m spacy download en_core_web_sm
 ## Usage
 
 1. Data Scraping:
-Run the following script to scrape data from your desired source (e.g., arXiv):
+Run the following script to scrape data from your desired source (e.g., arXiv):  
 python data scraping.py  
 This will save the scraped data to the directory. Use the python schedule for automated data scraping every 3 months. 
 
@@ -82,7 +83,7 @@ This will generate a processed dataset suitable for LDA.
 3. Streamlit App:
 Run the Streamlit app to visualize the LDA topics:
 streamlit run streamlit.py  
-This will open a local server at [streamlit app](#https://emmashang0625-capstone-challenge---latest-tren-streamlit-jldhly.streamlit.app/), where you can interact with the topic distribution pie chart.
+This will open a local server at ![streamlit app](https://emmashang0625-capstone-challenge---latest-tren-streamlit-jldhly.streamlit.app/), where you can interact with the topic distribution pie chart.
 
 ## Contribution
 The whole project, including data scriping, preprocessing, model evaluation and Streamlit app development, was completed by Hui Shang. Contributions and improvements to the project are welcome!
