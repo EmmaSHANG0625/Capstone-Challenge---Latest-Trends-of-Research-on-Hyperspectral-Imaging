@@ -17,7 +17,7 @@ This project demonstrates the full pipeline of building a topic modeling applica
 
 **Data Scraping:**  
 The first step in the project involves collecting data from arXiv, a renowned open-access repository that hosts scholarly articles across a wide range of fields, including physics, mathematics, computer science, and more. By targeting metadata and abstracts related to **hyperspectral imaging**, we extracted structured data such as titles, authors, publication dates, and abstracts. This data serves as the foundation for further analysis. The scraping process was automated, iniscically set as every 3 months, using Python libraries, ensuring efficiency and reproducibility.
-
+![Alt text](wordcloud-1)
 **Data Preprocessing:**  
 The scraped data underwent thorough preprocessing to ensure it was clean and suitable for topic modeling. Tasks included:
 
@@ -82,7 +82,7 @@ This will generate a processed dataset suitable for LDA.
 3. Streamlit App:
 Run the Streamlit app to visualize the LDA topics:
 streamlit run streamlit.py  
-This will open a local server at https://emmashang0625-capstone-challenge---latest-tren-streamlit-jldhly.streamlit.app/, where you can interact with the topic distribution pie chart.
+This will open a local server at [streamlit app](#https://emmashang0625-capstone-challenge---latest-tren-streamlit-jldhly.streamlit.app/), where you can interact with the topic distribution pie chart.
 
 ## Contribution
 The whole project, including data scriping, preprocessing, model evaluation and Streamlit app development, was completed by Hui Shang. Contributions and improvements to the project are welcome!
