@@ -22,11 +22,7 @@ st.write("This dashboard provides an overview of research trends in hyperspectra
 
 st.subheader("1. WordCloud of Most Frequent Words")
 st.write("The WordCloud below shows the most frequent words in the dataset based on the abstracts of the papers. Of caurse, the most frequent words are the common stopwords, but after adding some custerised stopwords, some relevant terms can be analyzed.")
-wordcloud = WordCloud(width=800, height=400, background_color='white').generate(' '.join(all_words))
-plt.figure(figsize=(10, 5))
-plt.imshow(wordcloud, interpolation='bilinear')
-plt.axis("off")
-st.pyplot(plt)
+st.image("wordcloud-2.png", caption="WordCloud of Most Frequent Words", use_column_width=True)
 
 # 2. Keyword Trends Over Time
 
